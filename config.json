@@ -5,13 +5,13 @@
   "socketMessageEvent": "RTCMultiConnection-Message",
   "socketCustomEvent": "RTCMultiConnection-Custom-Message",
   "port": "9001",
-  "enableLogs": "true",
-  "autoRebootServerOnFailure": "false",
+  "enableLogs": "false",
+  "autoRebootServerOnFailure": "true",
   "isUseHTTPs": "true",
   "sslKey": "./fake-keys/privatekey.pem",
   "sslCert": "./fake-keys/certificate.pem",
   "sslCabundle": "",
-  "enableAdmin": "true",
+  "enableAdmin": "false",
   "adminUserName": "username",
   "adminPassword": "password"
 }
