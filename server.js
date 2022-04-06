@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const url = require('url');
-var httpServer = require('https');
+var httpServer = require('http');
 
 const ioServer = require('socket.io');
 const RTCMultiConnectionServer = require('./node_scripts/index.js');
@@ -49,7 +49,7 @@ function serverHandler(request, response) {
 var httpApp;
 
 if (isUseHTTPs) {
-    httpServer = require('https');
+    httpServer = require('http');
 
     // See how to use a valid certificate:
     // https://github.com/muaz-khan/WebRTC-Experiment/issues/62
