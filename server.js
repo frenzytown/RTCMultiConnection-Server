@@ -4,13 +4,13 @@
 const fs = require('fs');
 const path = require('path');
 const url = require('url');
-var httpServer = require('http');
+var httpServer = require('https');
 
 const ioServer = require('socket.io');
 const RTCMultiConnectionServer = require('./node_scripts/index.js');
 
 var PORT = 9001;
-var isUseHTTPs = false;
+var isUseHTTPs = true;
 
 const jsonPath = {
     config: 'config.json',
