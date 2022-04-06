@@ -1,6 +1,6 @@
 {
   "socketURL": "/",
-  "dirPath": "",
+  "dirPath": "/var/www/html/",
   "homePage": "/demos/index.html",
   "socketMessageEvent": "RTCMultiConnection-Message",
   "socketCustomEvent": "RTCMultiConnection-Custom-Message",
